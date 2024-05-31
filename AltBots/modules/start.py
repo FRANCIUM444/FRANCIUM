@@ -9,7 +9,7 @@ START_BUTTON = [
     ],
     [
         Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/APNI_MEHFIL"),
-        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/I_C2H5OH_I")
+        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/balidan_addicted")
     ],
     [
         Button.url("• ʀᴇᴘᴏ •", "https://github.com/FRANCIUM444")
@@ -34,7 +34,7 @@ async def start(event):
         bot_name = AltBot.first_name
         bot_id = AltBot.id
         TEXT = f"ʜᴇʏ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ : [𝗦𝗛𝗜𝗩𝗔](https://t.me/I_C2H5OH_I)\n\n"
+        TEXT += f"» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ : [𝗦𝗛𝗜𝗩𝗔](https://t.me/balidan_addicted)\n\n"
         TEXT += f"» xʙᴏᴛꜱ ᴠᴇʀsɪᴏɴ : M3.3\n"
         TEXT += f"» ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.11.3\n"
         TEXT += f"» ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : {version}\n━━━━━━━━━━━━━━━━━"
