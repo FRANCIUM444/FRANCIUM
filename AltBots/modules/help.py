@@ -14,7 +14,7 @@ HELP_BUTTON = [
       Button.inline("💘 𝖢𝖮𝖬𝖬𝖠𝖭𝖣𝖲 💘", data="extra")
     ],
     [
-      Button.url("🍁 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋 🍁", "https://t.me/I_C2H5OH_I"),
+      Button.url("🍁 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋 🍁", "https://t.me/balidan_addicted"),
       Button.url("💖 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 💖", "https://t.me/APNI_MEHFIL")
     ]
   ]
@@ -60,7 +60,7 @@ extra_msg = f"""
   2) {hl}𝚕𝚎𝚊𝚟𝚎 : 𝚃𝚢𝚙𝚎 𝚒𝚗 𝚝𝚑𝚎 𝙶𝚛𝚘𝚞𝚙 𝚋𝚘𝚝 𝚠𝚒𝚕𝚕 𝚊𝚞𝚝𝚘 𝚕𝚎𝚊𝚟𝚎 𝚝𝚑𝚊𝚝 𝚐𝚛𝚘𝚞𝚙 
 
 
-**© @I_C2H5OH_I**
+**© @balidan_addicted**
 """
 
                  
@@ -92,7 +92,7 @@ raid_msg = f"""
   2) {hl}𝚌𝚛𝚊𝚒𝚍 <𝚌𝚘𝚞𝚗𝚝> <𝚛𝚎𝚙𝚕𝚢 𝚝𝚘 𝚞𝚜𝚎𝚛>
 
 
-**© @I_C2H5OH_I**💘
+**© @balidan_addicted**💘
 """
 
 spam_msg = f"""
@@ -109,7 +109,7 @@ spam_msg = f"""
   1) {hl}𝚑𝚊𝚗𝚐 <𝚌𝚘𝚞𝚗𝚝𝚎𝚛>
 
 
-** © @I_C2H5OH_I**
+** © @balidan_addicted**
 """                     
            
            
@@ -136,13 +136,13 @@ async def helpback(event):
                 Button.inline("💖 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚂 💖", data="extra")
               ],
               [
-                Button.url("💘 ⏤͟͟͞ ✘ ˹𝙎𝙝𝙞𝙑𝙖˼ 💘", "https://t.me/I_C2H5OH_I"),
+                Button.url("💘 ⏤͟͟͞ ✘ ˹𝙎𝙝𝙞𝙑𝙖˼ 💘", "https://t.me/balidan_addicted"),
                 Button.url("💫 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 💫", "https://t.me/APNI_MEHFIL")
               ]
             ]
           )
     else:
-        await event.answer("ᵛ ⁱ ᵖ° 🫧 𓆩𝐒 Ħ Ɩ Ѵ Δ𓆪•𝅃꯭ 🎫 𝗦𝗘 𝗝𝗔𝗞𝗘 𝗟𝗘 𝗟𝗢 𝗦𝗨𝗗𝗢  @I_C2H5OH_I" , cache_time=0, alert=True)
+        await event.answer("ᵛ ⁱ ᵖ° 🫧 𓆩𝐒 Ħ Ɩ Ѵ Δ𓆪•𝅃꯭ 🎫 𝗦𝗘 𝗝𝗔𝗞𝗘 𝗟𝗘 𝗟𝗢 𝗦𝗨𝗗𝗢 @balidan_addicted 💗" , cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
@@ -161,7 +161,7 @@ async def help_spam(event):
               buttons=[[Button.inline("< Back", data="help_back"),],],
               ) 
     else:
-        await event.answer("ᵛ ⁱ ᵖ° 🫧 𓆩𝐒 Ħ Ɩ Ѵ Δ𓆪•𝅃꯭ 🎫 𝗦𝗘 𝗝𝗔𝗞𝗘 𝗟𝗘 𝗟𝗢 𝗦𝗨𝗗𝗢 @I_C2H5OH_I 💖", cache_time=0, alert=True)
+        await event.answer("ᵛ ⁱ ᵖ° 🫧 𓆩𝐒 Ħ Ɩ Ѵ Δ𓆪•𝅃꯭ 🎫 𝗦𝗘 𝗝𝗔𝗞𝗘 𝗟𝗘 𝗟𝗢 𝗦𝗨𝗗𝗢 @balidan_addicted 💗", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"raid"))
@@ -180,7 +180,7 @@ async def help_raid(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
           )
     else:
-        await event.answer("ᵛ ⁱ ᵖ° 🫧 𓆩𝐒 Ħ Ɩ Ѵ Δ𓆪•𝅃꯭ 🎫 𝗦𝗘 𝗝𝗔𝗞𝗘 𝗟𝗘 𝗟𝗢 𝗦𝗨𝗗𝗢 @I_C2H5OH_I 💖", cache_time=0, alert=True)
+        await event.answer("ᵛ ⁱ ᵖ° 🫧 𓆩𝐒 Ħ Ɩ Ѵ Δ𓆪•𝅃꯭ 🎫 𝗦𝗘 𝗝𝗔𝗞𝗘 𝗟𝗘 𝗟𝗢 𝗦𝗨𝗗𝗢 @balidan_addicted 💗", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
@@ -199,4 +199,4 @@ async def help_extra(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )
     else:
-        await event.answer("ᵛ ⁱ ᵖ° 🫧 𓆩𝐒 Ħ Ɩ Ѵ Δ𓆪•𝅃꯭ 🎫 𝗦𝗘 𝗝𝗔𝗞𝗘 𝗟𝗘 𝗟𝗢 𝗦𝗨𝗗𝗢 @I_C2H5OH_I 💖", cache_time=0, alert=True)
+        await event.answer("ᵛ ⁱ ᵖ° 🫧 𓆩𝐒 Ħ Ɩ Ѵ Δ𓆪•𝅃꯭ 🎫 𝗦𝗘 𝗝𝗔𝗞𝗘 𝗟𝗘 𝗟𝗢 𝗦𝗨𝗗𝗢 @balidan_addicted 💗", cache_time=0, alert=True)
